@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - Full Stack Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images\cpy2.jpeg" alt="Logo" id="logo">
+        FULL STACK DEVELOPER
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">ABOUT ME</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">PROFILE</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="section py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Me</h2>
+      <div class="row">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required />
+            </div>
+            <div class="mb-3">
+              <textarea name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Personal Details -->
+        <div class="col-md-6">
+          <div class="card p-4 shadow-sm">
+            <h4>Akhila K</h4>
+            <p><strong>Email:</strong> akhilaakku8086@gmail.com</p>
+            <p><strong>Phone:</strong> +91 7994698942</p>
+            <p><strong>Location:</strong> palakkad,kerala, India</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/akhila-ak-00" target="_blank">github.com/akhila-ak-00</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-3 mt-5" style="background-color: #343a40; color: #fff;">
+    © 2025 Full Stack Developer Portfolio. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
